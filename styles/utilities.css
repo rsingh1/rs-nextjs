@@ -1,0 +1,48 @@
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section {
+  @apply mb-8;
+}
+
+.section-title {
+  @apply text-2xl font-bold mb-4;
+}
+
+.timeline {
+  @apply relative border-l border-gray-300;
+}
+
+.timeline-item {
+  @apply mb-8 ml-4;
+}
+
+.timeline-item-content {
+  @apply p-4 bg-white rounded shadow;
+}
+
+.timeline-item-date {
+  @apply absolute left-[-1.5rem] top-0 text-gray-500;
+}
+
+.skills-list {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.contact-form {
+  @apply bg-white p-6 rounded shadow;
+}
+
+.contact-form input,
+.contact-form textarea {
+  @apply w-full p-2 border border-gray-300 rounded mb-4;
+}
+
+.contact-form button {
+  @apply bg-blue-500 text-white py-2 px-4 rounded;
+}
