@@ -6,8 +6,8 @@ export default function Education() {
       <SectionTitle>Education</SectionTitle>
       <div className="text-sm text-gray-700">
         <div>
-          <strong>B.Sc. in Computer Science</strong>
-          <div className="text-gray-600">University Name — 2013 — 2017</div>
+          <strong>B. Tech. in Computer Science</strong>
+          <div className="text-gray-600">National Institute of Technology (NIT), Raipur — 2011 — 2015</div>
         </div>
       </div>
     </section>

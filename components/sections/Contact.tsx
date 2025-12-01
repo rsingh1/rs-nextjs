@@ -5,9 +5,9 @@ export default function Contact() {
     <section className="mb-6">
       <SectionTitle>Contact</SectionTitle>
       <div className="text-sm text-gray-700 space-y-1">
-        <div>Email: you@example.com</div>
-        <div>Phone: +1 123 456 7890</div>
-        <div>Location: City, Country</div>
+        <div>Email: rsingh.nitrr@gmail.com</div>
+        <div>Phone: +91 800 500 4843</div>
+        <div>Location: Lucknow, India</div>
       </div>
     </section>
   )
