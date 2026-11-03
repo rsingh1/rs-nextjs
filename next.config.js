@@ -1,9 +1,11 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['example.com'],
-  },
-  experimental: {
-    appDir: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'example.com',
+      },
+    ],
   },
 };
